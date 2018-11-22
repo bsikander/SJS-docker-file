@@ -2,6 +2,7 @@
 https://hub.docker.com/r/bsikander/sjs/
 
 #### Build Image
+If the command doesn't run just readd the dashes
 
 ```
 docker build -t sjs:0.8 --build-arg BASE_DIR=./files --no-cache .
