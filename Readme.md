@@ -9,7 +9,7 @@ docker build -t sjs:0.8 --build-arg BASE_DIR=./files --no-cache .
 ```
 
 Note:
-- You need to place the sjs jar file inside the `files` folder (sbt job-server-extras/assembly)
+- You need to place the sjs jar file inside the `files` folder (sbt job-server-extras/assembly). The generated jar file is in job-server-extras/target/scala-2.11/spark-job-server.jar
 - You need to place the spark2.2.* tgz file inside `files` folder
 
 #### Run Image
